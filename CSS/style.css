@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1e202b;
+    color: #bfc1c8;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.container {
+    width: 60%;
+}
+
+a {
+    color: #bfc1c8;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+/* Start Header Section */
+.header {
+    padding: 25px 0;
+}
+
+.header .logo {
+    display: flex;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-name {
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links {
+    display: flex;
+    margin-top: 20px;
+}
+
+.navbar-links li a {
+    padding-inline: 20px;
+    font-weight: 400;
+    font-size: large;
+}
+.active {
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+}
+
+.active a {
+    color: #009ad8;
+}
+/* End Header Section */
+
+/* Start Search Section */
+.app-search {
+    background-image: url(../Images/banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.search {
+    padding-top: 50px;
+}
+
+.input-search {
+    background-color: #1e202b;
+    padding: 15px 0;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    padding-left: 25px;
+    height: 50px;
+}
+
+
+/* End Search Section */
+/* Start Weather */
+.item {
+    background-color: #1e202b;
+}
+
+.today-item {
+    background-color: #323544;
+}
+
+
+
+#today_condition_text {
+    color: #2c6ece;
+}
+
+#today_temp {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.today-c {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.item-footer img {
+    width: 20px;
+    height: 20px;
+}
+
+.third-card {
+    background-color: #323544;
+}
+
+
+
+
+
+/* End Weather */
+/* Start Footer */
+.footer {
+    background-color: #262837;
+    margin-top: 100px;
+    height: 23vh;
+}
+.input-footer {
+    padding-top: 50px;
+}
+
+.input-footer .input-search {
+    background-color: #1e202b;
+    padding: 15px 0;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    padding-left: 25px;
+    height: 45px;
+}
+
+
+/* End Footer */
+
+
